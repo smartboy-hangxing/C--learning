@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/Ford/C++learning/projects/awesome_cmake/build",
+  "command": "D:\\MinGW\\bin\\g++.exe  @CMakeFiles/awesome_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\awesome_demo.dir\\src\\Awesome.cpp.obj -c E:\\Ford\\C++learning\\projects\\awesome_cmake\\src\\Awesome.cpp",
+  "file": "E:/Ford/C++learning/projects/awesome_cmake/src/Awesome.cpp",
+  "output": "CMakeFiles/awesome_demo.dir/src/Awesome.cpp.obj"
+},
+{
+  "directory": "E:/Ford/C++learning/projects/awesome_cmake/build",
+  "command": "D:\\MinGW\\bin\\g++.exe  @CMakeFiles/awesome_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\awesome_demo.dir\\src\\main.cpp.obj -c E:\\Ford\\C++learning\\projects\\awesome_cmake\\src\\main.cpp",
+  "file": "E:/Ford/C++learning/projects/awesome_cmake/src/main.cpp",
+  "output": "CMakeFiles/awesome_demo.dir/src/main.cpp.obj"
+}
+]

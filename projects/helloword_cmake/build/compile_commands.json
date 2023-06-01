@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/Ford/C++learning/projects/helloword_cmake/build",
+  "command": "D:\\MinGW\\bin\\g++.exe  @CMakeFiles/test1.dir/includes_CXX.rsp -g -o CMakeFiles\\test1.dir\\src\\log.cpp.obj -c E:\\Ford\\C++learning\\projects\\helloword_cmake\\src\\log.cpp",
+  "file": "E:/Ford/C++learning/projects/helloword_cmake/src/log.cpp",
+  "output": "CMakeFiles/test1.dir/src/log.cpp.obj"
+},
+{
+  "directory": "E:/Ford/C++learning/projects/helloword_cmake/build",
+  "command": "D:\\MinGW\\bin\\g++.exe  @CMakeFiles/test1.dir/includes_CXX.rsp -g -o CMakeFiles\\test1.dir\\src\\main.cpp.obj -c E:\\Ford\\C++learning\\projects\\helloword_cmake\\src\\main.cpp",
+  "file": "E:/Ford/C++learning/projects/helloword_cmake/src/main.cpp",
+  "output": "CMakeFiles/test1.dir/src/main.cpp.obj"
+}
+]
