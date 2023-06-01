@@ -1,0 +1,3 @@
+[submodule "modern-cpp-tutorial"]
+	path = modern-cpp-tutorial
+	url = git@github.com:smartboy-hangxing/modern-cpp-tutorial.git
