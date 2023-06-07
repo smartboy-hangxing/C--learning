@@ -1,0 +1,2 @@
+E:/Ford/C++learning/projects/helloword/build/CMakeFiles/edit_cache.dir
+E:/Ford/C++learning/projects/helloword/build/CMakeFiles/rebuild_cache.dir
