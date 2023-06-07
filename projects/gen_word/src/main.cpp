@@ -1,12 +1,26 @@
-#include <iostream>
+#include <fstream>
+#include <filesystem>
 
+namespace fs = std::filesystem;
 
-// create a blank document.
-System::SharedPtr<Document> doc = System::MakeObject<Document>();
-// the DocumentBuilder class provides members to easily add content to a document.
-System::SharedPtr<DocumentBuilder> builder = System::MakeObject<DocumentBuilder>(doc);
-// write a new paragraph in the document with the text "Hello World!"
-builder->Writeln(u"Hello World!");
-// save the document. 
-// the format to save as is inferred from the extension of the file name.
-doc->Save(u"output.docx");
+int main() {
+    std::string filename = "test.docx";
+    fs::path filePath = fs::current_path() / filename;
+
+    std::ofstream file(filePath, std::ios::binary);
+
+    // Word file header
+    unsigned char header[] = {
+        0x50, 0x4B, 0x03, 0x04, 0x14, 0x00, 0x06, 0x00,
+        0x08, 0x00, 0x00, 0x00, 0x21, 0x00, 0xD5, 0x43,
+        // Rest of the header data...
+    };
+
+    // Write the header to the file
+    file.write(reinterpret_cast<const char*>(header), sizeof(header));
+
+    // Close the file
+    file.close();
+
+    return 0;
+}
